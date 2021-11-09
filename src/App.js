@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Form from './components/Form.js';
+import TeamForm from './components/Form.js';
 
 function App() {
   return (
     <div className="App">
+      <TeamForm />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
